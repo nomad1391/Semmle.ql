@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines the structure of Semmle query files. You should adopt this structure when contributing custom queries to this repository, in order to ensure that new queries are consistent with the standard Semmle queries.
+This document outlines the structure of CodeQL query files. You should adopt this structure when contributing custom queries to this repository, in order to ensure that new queries are consistent with the standard CodeQL queries.
 
 ## Query files (.ql extension)
 
@@ -23,6 +23,7 @@ For examples of query files for the languages supported by CodeQL, visit the fol
 *   [Java queries](https://help.semmle.com/wiki/display/JAVA/)
 *   [JavaScript queries](https://help.semmle.com/wiki/display/JS/)
 *   [Python queries](https://help.semmle.com/wiki/display/PYTHON/)
+*   [Go queries](https://help.semmle.com/wiki/display/Go)
 
 ## Metadata area
 
@@ -176,5 +177,6 @@ For examples of select clauses and alert messages, see the query source files at
 *   [Java queries](https://help.semmle.com/wiki/display/JAVA/)
 *   [JavaScript queries](https://help.semmle.com/wiki/display/JS/)
 *   [Python queries](https://help.semmle.com/wiki/display/PYTHON/)
+*   [Go queries](https://help.semmle.com/wiki/display/Go)
 
 For further information on query writing, see  [Writing CodeQL queries](https://help.semmle.com/QL/learn-ql/ql/writing-queries/writing-queries.html). For more information on learning CodeQL, see [Learning CodeQL](https://help.semmle.com/QL/learn-ql/index.html).
